@@ -196,7 +196,7 @@ user_view i{float: left;}
 .footer_div{background-color:rgb(121, 118, 118);float: left;width: 100%;padding: 40px;}
 .foot{/* background-color: red; */}
 .foot{color: white;}
-.f_category{background-color: pink; /* text-align: center; */}
+.f_category{text-align: center;}
 .f_category ul{list-style: none;padding: 0px;}
 .f_category ul li{padding: 5px;}
 .f_category ul li a{text-decoration: none;text-align: left; color: white;}
