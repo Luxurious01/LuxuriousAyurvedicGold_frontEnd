@@ -1,4 +1,6 @@
-
+@media (max-width: 950px) { 
+ 
+}
 .main_head{ 
     width:100%;
     float:left;
@@ -143,7 +145,7 @@ text-align: center;  }
 .care_product{float: left; width: 100%; padding:30px;  }
 .care_pro{padding: 10px;  float: left; width: 100%;}
 .skin_bann{box-shadow: 5px 10px 18px #888888;}
-.skin_bann img{height: 100%; width: 100%;}
+.skin_bann img{height: 100%; width: 100%; @media (min-width:1281px)}
 .slider_div{width:100%; float:left;position: relative;}
 .customer_review{padding: 10px;}
 .best_seller{width: 100%; }
@@ -196,7 +198,7 @@ user_view i{float: left;}
 .footer_div{background-color:rgb(121, 118, 118);float: left;width: 100%;padding: 40px;}
 .foot{/* background-color: red; */}
 .foot{color: white;}
-.f_category{/* background-color: pink; */ /* text-align: center; */}
+.f_category{background-color: pink; /* text-align: center; */}
 .f_category ul{list-style: none;padding: 0px;}
 .f_category ul li{padding: 5px;}
 .f_category ul li a{text-decoration: none;text-align: left; color: white;}
