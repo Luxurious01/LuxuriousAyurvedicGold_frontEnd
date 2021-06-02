@@ -185,7 +185,7 @@
 .f_srch_btn {padding: 17px; font-weight: 400px;color: #000; background-image: linear-gradient(to right, rgb(174, 134, 37),rgb(247, 239, 138),rgb(210, 172, 71),rgb(237, 201, 103));}
 .f_srch_btn:hover{text-decoration: none;color: white;}
 .f_payment {}
-.f_payment img{ height: 30px; width: 55px;}
+.f_payment img{ width: 100px;}
 .f_payment h6{text-align:center;}
 
 body {
