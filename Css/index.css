@@ -1,4 +1,7 @@
 
+body{
+    
+}
 .main_head{width:100%;float:left;}
 .stricky-fixed {position: fixed;top: -2px;left: 0;z-index: 99;background-color: #fff; box-shadow: 0 20px 20px -10px #cccccc;}
 .main_head .top_head{width:100%; float:left; background-color:rgb(92, 52, 30);}
@@ -44,7 +47,7 @@
 .skin_bann{box-shadow: 5px 10px 18px #888888;}
 .skin_bann img{height: 100%; width: 100%; @media (min-width:1281px)}
 .slider_div{width:100%; float:left;position: relative;}
-.customer_review{padding: 10px;}
+.customer_review{padding: 25px;}
 .best_seller{width: 100%; }
 .best_seller h2{ color:black; letter-spacing: 0.2rem; font-family:Oswald Regular ;font-size: 26px;font-weight: 400;text-align: center;text-transform: uppercase;position: relative;margin: 27px 0 27px;}
 /* .best_seller b {color:purple;} */
@@ -131,6 +134,7 @@ user_view i{float: left;}
 .menu_div{display: block; /* margin: 0 auto; */padding: 0px; }
 .search_box:hover .search_text{margin-top: 65px;}
 .store_txt h3{text-align: center; width: 100%;}
+.stores_img{display: block;}
 .store_txt::after{display: none;}
 
 
