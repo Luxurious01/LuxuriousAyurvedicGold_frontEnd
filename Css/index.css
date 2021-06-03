@@ -85,8 +85,8 @@ user_view i{float: left;}
 
 .stores{float: left; width: 100%; padding: 10px;}
 .store_det{float: left;width: 100%;}
-.stores_img{ padding: 0px; display: inline-block;}
-.stores_img img{}
+.stores_img{ padding: 0px; display: inline-flex;}
+.stores_img img{width: 100%;}
 .store_txt{padding: 0px;}
 .store_txt h3{display: inline-block;   font-family: Oswald Regular; font-size: 35px;}
 .store_txt::after{content: "";width: 2px;position: absolute;height: 55px;background:black;top: 16%;left: 90%;}
@@ -121,10 +121,13 @@ user_view i{float: left;}
 .f_payment h6{text-align:center;}
 /* ---------------------media Query-------------------------- */
 @media (max-width:786px){
-    .welcom{margin: 0 auto;}
+.welcom{margin: 0 auto;}
 .best_seller h2::before {top: 50%;right: 0; left: 0; width: 100%;z-index: 1;height: 2px;content: "";position: absolute;transform: translateY(-50%);}
 .best_seller h2::after {top: 50%;right: 0; left: 0;width: 100%;z-index: 1; height: 2px; position: absolute;transform: translateY(-50%);}
 .best_seller h2{padding: 0px 0px 39px 0px;}
 .f_srch_btn{    display: inline-block;}
-    
+.menu_div{display: block; /* margin: 0 auto; */padding: 0px; }
+.search_box:hover .search_text{position: relative; left: 0%; top: 0%; width: 300px;}
+
+
 }
