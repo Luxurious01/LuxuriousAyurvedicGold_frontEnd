@@ -81,7 +81,7 @@
 .indiv_product_des h4{ text-decoration: underline;}
 .indiv_product_des p{font-size: 16px;}
 .indiv_product_rating{ padding: 10px 0px;}
-.indiv_product_addcart{ background-image: linear-gradient(to right, rgb(235, 193, 125),rgb(223, 183, 124),rgb(192, 131, 41),rgb(234, 190, 129), rgb(238, 220, 195)); width: 160px; text-align: center; padding: 15px;margin:5px;}
+.indiv_product_addcart{ background-imag: linear-gradient(to right, rgb(235, 193, 125),rgb(223, 183, 124),rgb(192, 131, 41),rgb(234, 190, 129), rgb(238, 220, 195)); width: 160px; text-align: center; padding: 15px;margin:5px;}
 .indiv_product_buynow{ background-image: linear-gradient(to right, rgb(235, 193, 125),rgb(223, 183, 124),rgb(192, 131, 41),rgb(234, 190, 129), rgb(238, 220, 195)); width: 160px; text-align: center; padding: 15px;margin:5px;}
 .indiv_product_detalis{float: left; width: 100%;}
 .indiv_product_nam{ float: left; color: purple; width: 100%; text-align: center; position: relative;}
@@ -115,18 +115,17 @@
 
             /* ---------------------media Query-------------------------- */
 @media (max-width:768px){
-  .welcom{margin: 0 auto;}
-  .f_srch_btn{    display: inline-block;}
-  .menu_div{display: block; /* margin: 0 auto; */padding: 0px; }
-  .search_box:hover .search_text{position: relative; left: 0%; top: 0%;}
-  .indiv_product_nam h4::before {top: 50%;right: 0; left: 0; width: 100%;z-index: 1;height: 2px;content: "";position: absolute;transform: translateY(-50%);}
+.welcom{margin: 0 auto;}
+.f_srch_btn{    display: inline-block;}
+.menu_div{display: block; /* margin: 0 auto; */padding: 0px; }  .search_box:hover .search_text{position: relative; left: 0%; top: 0%;}
+.indiv_product_nam h4::before {top: 50%;right: 0; left: 0; width: 100%;z-index: 1;height: 2px;content: "";position: absolute;transform: translateY(-50%);}
 .indiv_product_nam h4::after {top: 50%;right: 0; left: 0; width: 100%;z-index: 1;height: 2px;content: "";position: absolute;transform: translateY(-50%);}
 .indiv_product_nam h4{padding: 0px 0px 39px 0px;}
 .store_txt h3{text-align: center; width: 100%;}
 .store_txt::after{display: none;}
 .indiv_product{padding: 0px;}
 .wrapper{float: left;width: 100%;}
-.indiv_product_buynow{width: 121px;padding: 24px 0px 24px 0px;}
+.indiv_product_buynow{width: 121px;padding: 15px;}
 .indiv_product_addcart{width: 121px;}
 
 
