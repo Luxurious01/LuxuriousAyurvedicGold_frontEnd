@@ -183,7 +183,7 @@ border: none;
 .f_payment img{width: 100px;}
 .f_payment h6{text-align:center;}
 /* ---------------------media Query-------------------------- */
-@media (max-width:786px){
+@media (max-width:768px){
     .welcom{margin: 0 auto;}
     .f_srch_btn{    display: inline-block;}
     .menu_div{display: block; /* margin: 0 auto; */padding: 0px; }

@@ -125,7 +125,7 @@ user_view i{float: left;}
 .f_payment img{ width:100px; }
 .f_payment h6{text-align:center;}
 /* ---------------------media Query-------------------------- */
-@media (max-width:786px){
+@media (max-width:768px){
 .welcom{margin: 0 auto;}
 .best_seller h2::before {top: 50%;right: 0; left: 0; width: 100%;z-index: 1;height: 2px;content: "";position: absolute;transform: translateY(-50%);}
 .best_seller h2::after {top: 50%;right: 0; left: 0;width: 100%;z-index: 1; height: 2px; position: absolute;transform: translateY(-50%);}
