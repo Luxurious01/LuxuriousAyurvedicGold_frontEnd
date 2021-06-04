@@ -272,4 +272,8 @@
 .indiv_product_nam h4{padding: 0px 0px 39px 0px;}
 .store_txt h3{text-align: center; width: 100%;}
 .store_txt::after{display: none;}
+.indiv_product{padding: 10px;}
+.wrapper{float: left;width: 100%;}
+
+
   }
