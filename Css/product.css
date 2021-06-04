@@ -99,7 +99,7 @@
 .preview-thumbnail.nav-tabs li {width: 18%;margin-right: 2.5%; }
 .preview-thumbnail.nav-tabs li img {width: 100%;display: block; }
 .preview-thumbnail.nav-tabs li a {padding: 0;margin: 0; } 
-.preview-thumbnail.nav-tabs li:last-of-type {margin-right: 0; }
+.preview-thumbnail.nav-tabs li:last-of-type {margin-right: 0;}
 .tab-content {overflow: hidden; }
 .tab-content img {width: 100%;}
 
