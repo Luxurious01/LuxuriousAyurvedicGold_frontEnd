@@ -129,20 +129,24 @@
 
 
 
-.contact{float: left; width: 100%; padding: 25px;}
-.contact_div{ float: left; border-right: 0.1rem solid gray; }
+.contact{float: left; width: 100%; }
+.contact_div{ float: left; border-right: 0.1rem solid gray;  text-align: center;}
 .contact_txt{background-color: whitesmoke; float: left; width: 100%;}
-.contact_txt h2{width: 100%; float:left; text-align: center; font-family: Oswald Regular; font-size: 45px; padding: 36px;}
+.contact_txt h2{ text-align: center; font-family: Oswald Regular; font-size: 45px; padding: 20px 0px 30px 0px;}
 .contact_form{ float: left; padding: 20px; }
 .contact_fill{padding: 17px; width: 100%; float: left;}
-.contact_fill input{border: none; width: 100%; font-size: 20px; background-color:transparent; outline: none;  border-bottom: 0.1rem solid grey;}
+.contact_fill input{border: none; width: 100%; font-size: 18px; background-color:transparent; outline: none;  border-bottom: 0.1rem solid grey;}
 /* .contact_soical{background-color: palegreen; } */
 .submit_btn{float: left; width: 100%;  padding: 15px;}
-.submit_btn input{ text-align: center ; width: 400px; display: block; border: none;padding: 7px; background-image: linear-gradient(to right, rgb(235, 193, 125),rgb(223, 183, 124),rgb(192, 131, 41),rgb(234, 190, 129), rgb(238, 220, 195));
+.submit_btn input{ text-align: center ; width: 400px; display: block; border-radius: 3px; border: none;padding: 7px; background-image: linear-gradient(to right, rgb(235, 193, 125),rgb(223, 183, 124),rgb(192, 131, 41),rgb(234, 190, 129), rgb(238, 220, 195));
  margin : 0 auto; font-size: 20px; color: black;}
-.contact_soical{float: left; width: 100%; background-color: firebrick;padding: 20px; clear: both;}
-.contact_add {background-color: dodgerblue;   }
-.contact_phn{background-color: deeppink;  }
+.contact_soical{float: left; width: 100%; clear: both; text-align: center;}
+.contact_add {padding: 3px 34px 0px 0px; font-size: 15px; }
+.contact_add i{padding: 9px;}
+.contact_phn{ font-size: 15px; padding: 40px 0px 0px 40px;}
+.contact_phn i{padding: 9px;}
+.soical_icon{text-align: center; font-size: 25px; font-family:Oswald Regular; float: left; width: 100%;}
+.soical_icon img{padding: 10px;}
 
 
 
