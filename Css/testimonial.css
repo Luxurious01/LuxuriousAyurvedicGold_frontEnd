@@ -21,7 +21,7 @@
 
 .menu_div ul li:hover>.dropdown ul { border-bottom: 1px dotted whitesmoke;   background-color:white;text-align: left;}
 #icon{color: white;font-size: 30px; cursor: pointer; display: none; line-height: 70px; float: right;}
-.search_div{background-color: yellow;  padding: 10px;}
+.search_div{background-color:green;  padding: 10px;}
 .search_btn{color: purple; display: inline-block;font-size: 17px;}
 .search_div .search_text{border: none;/* background: palegreen; */outline: none; text-align: left;padding: 0;font-size: 18px;transition: 0.4s;/* line-height: 40px; */width: 0px; position: absolute;   /* left: -174px; */}
 .search_div:hover  .search_text{ width: 167px;padding: 0px 6px; border-radius: 3px;}
