@@ -6,3 +6,20 @@
 .user_deta{display: inline-flex; width: 100%;}
 .user_txt{display: block; padding: 10px;}
 .user_img img{width: 100px;height: 100px;} */
+.nav_div{float: left; width: 100%; background-color: tomato;}
+.nav_bar{float: left;width: 100%; background-color: teal;}
+.navi{float: left; width: 100%; background-color: antiquewhite;}
+.menu_div{background-color: mediumvioletred;display: inline-flex;}
+.menu_div ul{ margin: 0,auto; }
+.menu_div ul li{display: inline-block;text-decoration: none;color: wheat; padding: 10px;}
+.menu_div ul li a{ color:red; text-transform: uppercase;}
+#icon{color: white;font-size: 30px; cursor: pointer; display: none; line-height: 70px; float: right;}
+.search_div{background-color: yellow;}
+.cart_div{background-color: royalblue;}
+@media(max-width:768px){
+     #icon{display: block; }
+     .menu_div ul{width: 100%; position: fixed; height: 100hv; top: 80px; left: -100%;  background-color: yellow; text-align: center;transition: all .5s;}
+     .menu_div ul li{display:block;}
+     .nav_bar ul.show{left: 0;}
+    }
+    

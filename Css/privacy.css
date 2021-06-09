@@ -5,7 +5,6 @@
 .privacy_txt{text-align: center; font-size: 40px; font-family: Oswald Regular;float: left;width: 100%; padding: 30px;background-color: whitesmoke;}
 .privact_content{padding: 160px 0px 0px 0px;}
 
-
 .main_head{width:100%;float:left;}
 .stricky-fixed {position: fixed;top: -2px;left: 0;z-index: 99;background-color: #fff; box-shadow: 0 20px 20px -10px #cccccc;}
 .main_head .top_head{width:100%; float:left; background-color:rgb(92, 52, 30);}
@@ -18,22 +17,15 @@
 
 .all_head{ width: 100%; float: left; position: relative;}
 .navbar_div{float: left;width: 100%;}
-/* .menu_div{ background-color: yellow; margin: 0 auto; display: inline-block; }
-.menu_div ul{text-decoration: none; list-style:none;}
-.menu_div ul li{display: inline-block;padding: 10px 0px 0px 0px;}
-.menu_div ul li a{color: purple; font-size: 15px; text-transform: uppercase;padding: 10px;}
-label .icon{ color: purple; font-size: 25px; float: right; cursor: pointer; display: none;} */
- .nav_bar{width: 100%;text-align: center;position: relative; box-shadow: 5px 10px 18px #888888;}
-
+.nav_bar{width: 100%;text-align: center;position: relative; box-shadow: 5px 10px 18px #888888;}
 .menu_div{display: inline-block;margin: 0 auto; padding: 0px 0px 0px 116px; }
 .menu_div ul{display: inline-flex;list-style: none; padding: 9px;} 
 .menu_div ul li{padding: 0px 12px; }
-
 .menu_div ul li a{text-decoration: none;color: purple;  font-family:Oswald Regular;font-weight: 500;text-transform: uppercase;position: relative;}
 .dropdown_menu ul{display: none;background-color:white;z-index: 1;position: absolute;border-top: 2px solid purple;box-shadow: 5px 10px 18px #888888;}
 .dropdown_menu ul li{position: relative;}
 .menu_div ul li:hover>.dropdown_menu{display: block; }
-.menu_div ul li:hover>.dropdown_menu ul{display: block;} 
+.menu_div ul li:hover>.dropdown_menu ul{display: block;}
 .menu_div ul li:hover>.dropdown_menu ul li{width: 200px;padding: 5px; border-bottom: 1px dotted whitesmoke;   background-color:white;text-align: left;}
 .cart_div{ position:relative;   /* padding-left: 88px; *//* margin-right: 25px; */ /* background-color:palevioletred; */}
 .cart_div ul{list-style:none;margin-right: 25px;  /* background-color: #38A1F3; */}
@@ -43,6 +35,7 @@ label .icon{ color: purple; font-size: 25px; float: right; cursor: pointer; disp
 .search_box .search_text{border: none;/* background: palegreen; */outline: none; text-align: left;padding: 0;font-size: 16px;transition: 0.4s;/* line-height: 40px; */width: 0px; position: absolute;   /* left: -174px; */}
 .search_box:hover .search_text{  width: 167px;position: absolute;top: 8px; left: 60px;height: 30px; /* padding: 0px 5px; */border-radius: 3px;/* background-color: tomato; */}
 .welcom{float: left;margin-left: 350px;color:lemonchiffon;}
+
 
 .stores{float: left; width: 100%; padding: 10px;}
 .store_det{float: left;width: 100%;}
