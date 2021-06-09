@@ -9,11 +9,11 @@
 .nav_div{float: left; width: 100%; background-color: tomato;}
 .nav_bar{float: left;width: 100%; background-color: teal;}
 .navi{float: left; width: 100%; background-color: antiquewhite;}
-.menu_div{background-color: mediumvioletred;display: inline-flex;}
+.menu_div{background-color: mediumvioletred;display: inline-flex;  margin-left:  116px; }
 .menu_div ul{ margin: 0,auto; }
-.menu_div ul li{display: inline-block;text-decoration: none;color: wheat; padding: 10px;}
+.menu_div ul li{display: inline-block;color: wheat; padding: 10px;}
 .menu_div ul li i{display: none;}
-.menu_div ul li a{ color:red; text-transform: uppercase;}
+.menu_div ul li a{ color:red; text-transform: uppercase;text-decoration: none;}
 .dropdown{position: relative;  display: none;}
 .dropdown ul {position: absolute; background-color: orange; padding: 0px; width: 200px;} 
 .menu_div ul li.active.dropdown{ }
@@ -21,14 +21,22 @@
 
 .menu_div ul li:hover>.dropdown ul { border-bottom: 1px dotted whitesmoke;   background-color:white;text-align: left;}
 #icon{color: white;font-size: 30px; cursor: pointer; display: none; line-height: 70px; float: right;}
-.search_div{background-color: yellow;}
-.cart_div{background-color: royalblue;}
-@media(max-width:768px){
+.search_div{background-color: yellow;  padding: 10px;}
+.search_btn{color: purple; display: inline-block;font-size: 17px;}
+.search_div .search_text{border: none;/* background: palegreen; */outline: none; text-align: left;padding: 0;font-size: 18px;transition: 0.4s;/* line-height: 40px; */width: 0px; position: absolute;   /* left: -174px; */}
+.search_div:hover  .search_text{ width: 167px;padding: 0px 6px; border-radius: 3px;}
+.search_div:hover .search_text{width: 200px; position: absolute;}
+.cart_div{background-color:black;}
+.cart_div ul li{display: inline-block; padding: 10px;}
+.cart_div ul li i{color: white;}
+@media(max-width:768px){ 
      #icon{display: block; }
+     .menu_div{padding: 0px;}
      .menu_div ul{width: 100%; position: fixed; height: 100hv; top: 80px; right: -100%;  background-color: yellow;transition: all.5s;}
      .menu_div ul li{display:block;}
      .nav_bar ul.show{right: 0;}
      .menu_div ul li i{display: inline;float: right;}
      .menu_div ul li:hover>.dropdown ul{position: relative; top:0;}
+     .search_div{}
     }
     
