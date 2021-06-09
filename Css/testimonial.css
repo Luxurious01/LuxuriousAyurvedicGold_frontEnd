@@ -12,14 +12,23 @@
 .menu_div{background-color: mediumvioletred;display: inline-flex;}
 .menu_div ul{ margin: 0,auto; }
 .menu_div ul li{display: inline-block;text-decoration: none;color: wheat; padding: 10px;}
+.menu_div ul li i{display: none;}
 .menu_div ul li a{ color:red; text-transform: uppercase;}
+.dropdown{position: relative;  display: none;}
+.dropdown ul {position: absolute; background-color: orange; padding: 0px; width: 200px;} 
+.menu_div ul li.active.dropdown{ }
+.menu_div ul li:hover>.dropdown {display: block;}
+
+.menu_div ul li:hover>.dropdown ul { border-bottom: 1px dotted whitesmoke;   background-color:white;text-align: left;}
 #icon{color: white;font-size: 30px; cursor: pointer; display: none; line-height: 70px; float: right;}
 .search_div{background-color: yellow;}
 .cart_div{background-color: royalblue;}
 @media(max-width:768px){
      #icon{display: block; }
-     .menu_div ul{width: 100%; position: fixed; height: 100hv; top: 80px; left: -100%;  background-color: green; text-align: center;transition: all .5s;}
+     .menu_div ul{width: 100%; position: fixed; height: 100hv; top: 80px; right: -100%;  background-color: yellow;transition: all.5s;}
      .menu_div ul li{display:block;}
-     .nav_bar ul.show{left: 0;}
+     .nav_bar ul.show{right: 0;}
+     .menu_div ul li i{display: inline;float: right;}
+     .menu_div ul li:hover>.dropdown ul{position: relative; top:0;}
     }
     
