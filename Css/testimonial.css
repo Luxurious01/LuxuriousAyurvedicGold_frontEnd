@@ -18,7 +18,7 @@
 .cart_div{background-color: royalblue;}
 @media(max-width:768px){
      #icon{display: block; }
-     .menu_div ul{width: 100%; position: fixed; height: 100hv; top: 80px; left: -100%;  background-color: yellow; text-align: center;transition: all .5s;}
+     .menu_div ul{width: 100%; position: fixed; height: 100hv; top: 80px; left: -100%;  background-color: green; text-align: center;transition: all .5s;}
      .menu_div ul li{display:block;}
      .nav_bar ul.show{left: 0;}
     }
