@@ -184,7 +184,7 @@
 <script src="../Js/bootstrap.min.js"></script>
 <script>
   $(document).ready(function(){
-    $('#icon').click(function(){
+    $('#icon').off('click').on ('click',function(){
       $('ul').toggleClass('show');
     });
   });
