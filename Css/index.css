@@ -161,13 +161,19 @@ body::-webkit-scrollbar
 
 
 
-#icon{display: block;color: purple; }
-.menu_div{padding: 0px; margin: 0px;}
+#icon{display: block;
+    color: purple;
+    margin-top: -13px;
+    padding: 0px;
+    font-size: 25px;
+    height: 0px;
+} 
+.menu_div{padding: 0px; margin: 0px;display: flex}
 .menu_div ul{padding: 0px;
     z-index: 1;
     position: absolute;
-    height: 100hv;
-    top: 75px;
+   
+    top: 51px;
     left: -100%;
  background-color: white;
     transition: all.5s;}
@@ -175,7 +181,6 @@ body::-webkit-scrollbar
 .nav_bar ul.show{left: 0;}
 .menu_div ul li i{display: inline;float: right;}
 .menu_div ul li:hover>.dropdown ul{position: relative; top:0;}
-.search_div{}
-
-
+.search_div{/* position: fixed; */ /* display: table-caption; */ padding: 10px 0px 0px 40px;}
 }
+
