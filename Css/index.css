@@ -140,6 +140,26 @@ body{
     border-radius: 5px 0px;
     width: auto;
     /* background-color: yellow; */}
+    /* body::-webkit-scrollbar
+    {
+        width: 7px;
+        background-color: #F5F5F5;
+    }
+    
+    body::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #f05c2b;
+    } */
+    .dropdown ul{
+        width:200px;
+        overflow-y: scroll;
+        height: 180px;   
+        scrollbar-color: #0A4C95 #C2D2E4;
+          }
+         
+    
 /* ---------------------media Query-------------------------- */
 @media (max-width:768px){
 .welcom{margin: 0 auto;}
@@ -158,16 +178,16 @@ body{
 
 #icon{display: block; }
 .menu_div{padding: 0px;}
-.menu_div ul{width: 50%;
-    padding: 0px;
+.menu_div ul{padding: 0px;
     z-index: 1;
-    position: fixed;
-    top: 42.5%;
-    left: 0%;
+    position: absolute;
+    height: 100hv;
+    top: 75px;
+    left: -100%;
     background-color: yellow;
     transition: all.5s;}
 .menu_div ul li{display:block;}
-.nav_bar ul.show{right: 0;}
+.nav_bar ul.show{left: 0;}
 .menu_div ul li i{display: inline;float: right;}
 .menu_div ul li:hover>.dropdown ul{position: relative; top:0;}
 .search_div{}
