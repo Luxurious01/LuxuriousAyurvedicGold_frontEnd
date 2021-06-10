@@ -1,7 +1,10 @@
 .term_div{float: left; width: 100%;}
-.term_txt{text-align: center; font-size: 40px; font-family: Oswald Regular;float: left;width: 100%; padding: 30px;background-color: whitesmoke;}
-.term_content{padding: 171px 0px 0px 0px;}
-.term_content ul li{font-size: 20px; }
+.term_txt{ background-image: url(../Images/terms.jpg.crdownload); float: left;width: 100%; padding: 30px;height: 500px; background-position: center;background-repeat: no-repeat;}
+.term_txt h3 {text-align: center; font-size: 60px;
+    padding: 159px; color:black;  font-family: Oswald Regular;}
+.term_content{float: left; width: 100%;padding: 30px;}
+.term_content ul{line-height: 26px; font-size: 15px;font-family: arial;}
+.term_content ul li {list-style: none;}
 
 .main_head{width:100%;float:left;}
 .stricky-fixed {position: fixed;top: -2px;left: 0;z-index: 99;background-color: #fff; box-shadow: 0 20px 20px -10px #cccccc;}
