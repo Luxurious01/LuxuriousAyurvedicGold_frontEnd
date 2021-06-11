@@ -1,6 +1,6 @@
 .shipping_div{float: left;width: 100%;}
 .shipping_txt{ background-image: url(../Images/shipping.jpg); float: left;width: 100%; padding: 30px;height: 500px; background-position: center;background-repeat: no-repeat; background-size: cover;}
-.shipping_txt h3{text-align: center; font-size: 60px;
+.shipping_txt h3{text-align: center; font-size: 62px;
 padding: 159px; color:black;  font-family: Oswald Regular;}
 .shipping_content{float: left; width: 100%;padding: 30px;}
 .shipping_content ul{line-height: 26px; font-size: 15px;font-family: arial;}
