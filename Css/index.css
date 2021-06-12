@@ -20,7 +20,7 @@ body{background-image:  url(../Images/background3.jpg);background-position: cent
 .menu_div{display: inline-flex;  margin-left:  182px;  }
 .menu_div ul{ margin: 0,auto;    z-index: 1;}
 .menu_div ul li{display: inline-block; padding: 10px;}
-.menu_div ul li i{display: none;}
+.menu_div ul li i{display: none; color: purple;}
 .menu_div ul li a{ color: purple;  font-family:Oswald Regular;font-weight: 800;text-decoration: none;font-size:18px;}
 .dropdown{position: relative;  display: none;}
 .dropdown ul {position: absolute;padding: 0px; width: 200px;z-index: 1;  border-top: 2px solid purple;box-shadow: 5px 10px 18px #888888;  overflow-y: scroll; height: 160px;scrollbar-color: #0A4C95 #C2D2E4;} 
@@ -75,7 +75,8 @@ body{background-image:  url(../Images/background3.jpg);background-position: cent
 .price_rat{width: 100%;float: left;padding: 8px;}
 .cart_btn{font-family:Oswald Medium; text-transform: uppercase; margin-bottom: 0px; background-color: purple; color: #fff; font-size: 10px;
  display: inline-block;height: 35px;width: 214px; margin-bottom: 10px;border-radius: 34px 0px;}
-/* .cart_btn:hover{color:#000;; background-color: #fff; border: 0.1rem solid purple;} */
+.cart_btn:hover{ background-color: #fff; border: 0.1rem solid purple;}
+.cart_btn:hover h5{color:purple;}
 
 
  
@@ -154,7 +155,8 @@ body::-webkit-scrollbar
          
     
 /* ---------------------media Query-------------------------- */
-@media (max-width:768px){
+@media (min-width: 481px) and (max-width: 767px)
+    {
     .logo_img{padding: 0px 0px 8px 25px;}
     .logo_txt {
         padding: -33px 0px 0px 12px;
