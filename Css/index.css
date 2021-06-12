@@ -155,7 +155,7 @@ body::-webkit-scrollbar
          
     
 /* ---------------------media Query-------------------------- */
-@media (min-width: 481px) and (max-width: 767px)
+@media (max-width: 767px)
     {
     .logo_img{padding: 0px 0px 8px 25px;}
     .logo_txt {
