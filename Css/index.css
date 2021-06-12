@@ -1,26 +1,31 @@
-
+body{background-image:  url(../Images/background3.jpg);background-position: center; background-repeat:  no-repeat; background-size: cover; }
 .main_head{width:100%;float:left;}
 .stricky-fixed {position: fixed;top: -2px;left: 0;z-index: 99;background-color: #fff; box-shadow: 0 20px 20px -10px #cccccc;}
-.main_head .top_head{width:100%; float:left; background-color:rgb(92, 52, 30);}
+.main_head .top_head{width:100%; float:left; background-color:rgb(19, 1, 19)}
 .main_head .top_head .welcom{padding:0px; font-family: Oswald Regular;}
 .Lower_head{float: left; width: 100%;}
-.logo img{height: 84px;width: 84px; display:block;margin: 0 auto;}
-.logo{ padding-top: 10px;float: left;width: 100%;text-align: center;}
+
+.logo{ padding-top: 10px;float: left;width: 100%;display: inline-flex;}
+.logo_img{    padding: 0px 0px 8px 375px;}
+.logo_img img{height: 84px;width: 84px; }
+.logo_txt { padding: 5px 0px 0px 12px;}
 .logo a{text-decoration: none;}
-.logo h3{color:rgb(74, 38, 19);text-transform: uppercase; font-weight: 600px;font-family: Anto Regular;padding: 0px;}
+.logo h3{color:rgb(74, 38, 19);text-transform: uppercase; font-weight: 600px;padding: 0px;font-family: Oswald Regular;font-size: 30px;}
+
 
 .all_head{ width: 100%; float: left; position: relative;}
-.nav_div{float: left; width: 100%;box-shadow: 5px 10px 18px #888888; }
+.nav_div{float: left; width: 100%;box-shadow: 5px 10px 18px #888888; background-color: white; }
 .nav_bar{float: left;width: 100%; }
 .navi{float: left; width: 100%;}
-.menu_div{display: inline-flex;  margin-left:  250px;  }
+.menu_div{display: inline-flex;  margin-left:  182px;  }
 .menu_div ul{ margin: 0,auto;    z-index: 1;}
 .menu_div ul li{display: inline-block; padding: 10px;}
 .menu_div ul li i{display: none;}
-.menu_div ul li a{ color: purple;  font-family:Oswald Regular;font-weight: 800;text-decoration: none;font-size: 15px;}
+.menu_div ul li a{ color: purple;  font-family:Oswald Regular;font-weight: 800;text-decoration: none;font-size:18px;}
 .dropdown{position: relative;  display: none;}
 .dropdown ul {position: absolute;padding: 0px; width: 200px;z-index: 1;  border-top: 2px solid purple;box-shadow: 5px 10px 18px #888888;  overflow-y: scroll; height: 160px;scrollbar-color: #0A4C95 #C2D2E4;} 
 .dropdown ul li{padding: 8px 0px 0px 8px;}
+.dropdown ul li a{ color:rgb(19, 1, 19); font-family:Oswald Regular ; font-size: 14px; font-weight: 800; }
 .menu_div ul li.active.dropdown{ }
 .menu_div ul li:hover>.dropdown {display: block;}
 
@@ -34,12 +39,12 @@
 .cart_div{}
 .cart_div ul li{display: inline-block; padding: 10px;}
 .cart_div ul li i{color: purple;font-weight: bold;font-size: 15px;}
-.welcom{float: left;margin-left: 350px;color:lemonchiffon;}
+.welcom{float: left;margin-left: 350px;color:white;}
 
 .slider_data{width: 100%;float: left;/* margin-top: 226px; */}
 
 .product_div{float: left; width: 100%; padding: 70px;}
-.tag{position: absolute;top: 1.6rem;padding: 2px;left: 1.7rem; background-color:orangered;color:white;line-height: 1.9rem;font-weight: 400;text-transform: uppercase;text-align: left;border-radius: 5px 0px;width: auto;
+.tag{position: absolute;top: 1.6rem;padding: 2px;left: 1.7rem; background-color:purple;color:white;line-height: 1.9rem;font-weight: 400;text-transform: uppercase;text-align: left;border-radius: 8px 0px;width: auto;
     /* background-color: yellow; */}
 .carousel-inner{float: left; width: 100%;}
 .in_product{background-color: yellow;width: 100%px;float: left;border: 3px solid black;}
@@ -57,7 +62,8 @@
 .best_seller h2::before {content: "";width: 120px;position: absolute;height: 3px;background:black;   top:50%; right: 65%;}
 .best_seller h2::after {content: "";width: 120px;position: absolute;height: 3px;background:black;top:50%; left: 65%;}
 
-.review_box{text-align: center; width: 100%;box-shadow: 5px 10px 18px #888888;margin: 16px 16px 16px 16px; }
+.review_box{text-align: center; width: 100%;box-shadow: 5px 10px 18px #888888;margin: 16px 16px 16px 16px;background-color: white;
+    border-radius: 14px; }
 .review_box_in{padding:8px; }
 /* .rating{float: right;  padding:5px;} */
 /* .rating i{color:gold;} */
@@ -65,11 +71,15 @@
 .pro_tagline{font-size: 19px; font-family: Oswald Light;color: dark grey; text-align: center;}
 .price {float: left;font-size: 16px;font-family: Oswald Regular;padding: 6px; color: black;}
 .rating{float: right;font-size: 16px;font-family: Oswald Regular;padding: 6px; color:black;}
-.rating i{color: yellow;}
+.rating i{color: goldenrod}
 .price_rat{width: 100%;float: left;padding: 8px;}
-.cart_btn{font-family:Oswald Medium; text-transform: uppercase; margin-bottom: 0px;   background-image: linear-gradient(to right, rgb(235, 193, 125),rgb(223, 183, 124),rgb(192, 131, 41),rgb(234, 190, 129), rgb(238, 220, 195));
- display: inline-block;height: 35px;width: 100px; margin-bottom: 10px; }
-.cart_btn a{text-decoration: none;color: black;}
+.cart_btn{font-family:Oswald Medium; text-transform: uppercase; margin-bottom: 0px; background-color: purple; color: #fff; font-size: 10px;
+ display: inline-block;height: 35px;width: 214px; margin-bottom: 10px;border-radius: 34px 0px;}
+/* .cart_btn:hover{color:#000;; background-color: #fff; border: 0.1rem solid purple;} */
+
+
+ 
+.cart_btn a{text-decoration: none;color: white}
 .owl-nav{float: left; width: 100%;}
 .owl-next{top: 50%; position: absolute;font-size: 35px; color: gainsboro;margin-top: -43px;right: -40px;}
 .owl-prev{top: 50%;position: absolute;font-size: 35px; color: gainsboro;margin-top: -43px;left: -40px;}
@@ -99,30 +109,30 @@
 .store_txt h3{display: inline-block;   font-family: Oswald Regular; font-size: 35px;}
 .store_txt::after{content: "";width: 2px;position: absolute;height: 55px;background:black;top: 16%;left: 90%;}
 
-.footer_div{background-color:rgb(121, 118, 118);float: left;width: 100%;padding: 40px;}
+.footer_div{background-color:rgb(19, 1, 19); float: left;width: 100%;padding: 40px;}
 .foot{/* background-color: red; */}
 .foot{color: white;}
 /* .f_category{text-align: center;} */
 .f_category ul{list-style: none;padding: 0px;}
 .f_category ul li{padding: 5px;}
 .f_category ul li a{text-decoration: none;text-align: left; color: white;}
-.f_category ul li a:hover{  color:goldenrod; border-bottom: 1px solid white;}
+.f_category ul li a:hover{  color:purple; border-bottom: 1px solid white;}
 .f_combo{/* background-color: orangered; */}
 .f_combo ul{list-style: none;padding: 0px;}
 .f_combo ul li{padding: 5px;}
 .f_combo ul li a{ text-decoration: none;text-align: left;color: white;}
-.f_combo ul li a:hover{color:goldenrod; border-bottom: 1px solid white;}
+.f_combo ul li a:hover{color:purple; border-bottom: 1px solid white;}
 .f_service{ /* background-color: blueviolet; */}
 .f_service ul{list-style: none;padding: 0px;}
 .f_service ul li{padding: 5px;}
 .f_service ul li a{ text-decoration: none;text-align: left;color: white;}
-.f_service ul li a:hover{color:goldenrod;  border-bottom: 1px solid white;}
+.f_service ul li a:hover{color:purple;  border-bottom: 1px solid white;}
 /* .f_info{ background-color: springgreen;  } */
 .f_info p{color: white;}
 .f_bottom{border-top: 1px solid gray; text-align: center; color:white;}
 .f_offers{ float: left; width: 100%; padding: 10px 0px 10px;}
 .f_offers .f_offerstxt{width: 280px;height: 50px;  border: transparent;}
-.f_srch_btn {padding: 15px; font-weight: 400px;color: #000; background-image: linear-gradient(to right, rgb(174, 134, 37),rgb(247, 239, 138),rgb(210, 172, 71),rgb(237, 201, 103)); position: absolute;}
+.f_srch_btn {padding: 15px; font-weight: 400px;color: #000; background-color: purple; position: absolute;}
 .f_srch_btn:hover{text-decoration: none;color: white;}
 .f_offers_box{position: relative;float: left;}
 /* .f_payment {background-color: palegoldenrod; } */
@@ -145,6 +155,10 @@ body::-webkit-scrollbar
     
 /* ---------------------media Query-------------------------- */
 @media (max-width:768px){
+    .logo_img{padding: 0px 0px 8px 25px;}
+    .logo_txt {
+        padding: -33px 0px 0px 12px;
+         margin-top: -10px;}
 .welcom{margin: 0 auto;}
 .best_seller h2::before {top: 50%;right: 0; left: 0; width: 100%;z-index: 1;height: 2px;content: "";position: absolute;transform: translateY(-50%);}
 .best_seller h2::after {top: 50%;right: 0; left: 0;width: 100%;z-index: 1; height: 2px; position: absolute;transform: translateY(-50%);}

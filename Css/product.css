@@ -13,17 +13,24 @@
 .indiv_product_des h4{ text-decoration: underline;}
 .indiv_product_des p{font-size: 17px;}
 .indiv_product_rating{ padding: 10px 0px;}
-.indiv_product_addcart{ background-image: linear-gradient(to right, rgb(235, 193, 125),rgb(223, 183, 124),rgb(192, 131, 41),rgb(234, 190, 129), rgb(238, 220, 195)); width: 160px; text-align: center; padding: 15px;margin:5px;}
-.indiv_product_buynow{ background-image: linear-gradient(to right, rgb(235, 193, 125),rgb(223, 183, 124),rgb(192, 131, 41),rgb(234, 190, 129), rgb(238, 220, 195)); width: 160px; text-align: center; padding: 15px;margin:5px;}
+.indiv_product_addcart{ background-color: purple; border-radius: 34px 0px;  width: 160px; text-align: center; padding: 15px;margin:5px; color: white;}
+.indiv_product_buynow{ background-color: purple; border-radius: 34px 0px; width: 160px; text-align: center; padding: 15px;margin:5px; color: white;}
 .indiv_product_detalis{float: left; width: 100%;}
 .indiv_product_nam{ float: left; color: purple; width: 100%; text-align: center; position: relative;}
 .indiv_product_nam h4::before {content: "";width: 389px;   position:  absolute;height: 2px;background:purple;   top:50%; right: 62%;}
 .indiv_product_nam h4::after {content: "";width: 389px;  position: absolute;height: 2px;background:purple; top:50%; left: 62%;}
 .indiv_product_detls{padding: 40px; float: left; width: 100%;}
 .indiv_product_about{ border: 1px solid gainsboro;float: left; width: 100%;  padding:  30px;}
+/* .indiv_product_about p{line-height: 10px;} */
+.indiv_product_about_img img{width: 200px;float: left;}
+.indiv_product_about p{padding: 0px 0px 0px 224px;
+  line-height: 28px;}
 .indiv_product_about h5{text-align:center; font-family: Oswald Regular; font-size: 30px; }
-.indiv_product_indri{ padding: 30px;   border: 1px solid gainsboro;float: left; width: 100%;}
-.indiv_product_indri h5{text-align:center; font-family: Oswald Regular; font-size: 30px;  }
+.indiv_product_ingri{ padding: 30px;   border: 1px solid gainsboro;float: left; width: 100%;}
+.indiv_product_ingri_img img{width: 200px;float: left;}
+.indiv_product_ingri p{padding: 0px 0px 0px 224px;
+  line-height: 28px;}
+.indiv_product_ingri h5{text-align:center; font-family: Oswald Regular; font-size: 30px;  }
 .indiv_product_direc{  padding: 30px;  border: 1px solid gainsboro; float: left; width: 100%;}
 .indiv_product_direc h5{text-align:center; font-family: Oswald Regular; font-size: 30px;  }
 /* .preview {display: flex;float: left; } */
@@ -139,6 +146,8 @@ body::-webkit-scrollbar
 .wrapper{float: left;width: 100%;}
 .indiv_product_buynow{width: 121px;padding: 15px;}
 .indiv_product_addcart{width: 121px;}
+.indiv_product_about p {padding: 0px;}
+.indiv_product_ingri p{padding: 0px;}
 
 
 .welcom{margin: 0 auto;}

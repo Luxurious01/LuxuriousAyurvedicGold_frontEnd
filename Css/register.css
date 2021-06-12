@@ -12,8 +12,8 @@
 .submit_btn{padding: 25px 0px 0px 0px;} 
 .submit_btn a{color:purple;}
 .submit_btn p{font-size: 15px; padding: 10px;}
-.submit_btn input{border: none;  color: black;  font-size: 20px;  background-image: linear-gradient(to right, rgb(235, 193, 125),rgb(223, 183, 124),rgb(192, 131, 41),rgb(234, 190, 129), rgb(238, 220, 195));}
-    
+.submit_btn input{border: none;  color:white;  font-size: 20px;  background-color: purple;padding: 5px;border-radius: 34px 0px;
+  width: 150px;}
 
 
 .main_head{width:100%;float:left;}
@@ -64,14 +64,13 @@
 .store_txt{padding: 0px;}
 .store_txt h3{display: inline-block;   font-family: Oswald Regular; font-size: 35px;}
 .store_txt::after{content: "";width: 2px;position: absolute;height: 55px;background:black;top: 16%;left: 90%;}
-
 .footer_div{background-color:rgb(121, 118, 118);float: left;width: 100%;padding: 40px;}
-.foot{/* background-color: red; */}
 .foot{color: white;}
-
+.foot{ text-align: left;}
+/* .f_category{text-align: center;} */
 .f_category ul{list-style: none;padding: 0px;}
-.f_category ul li{padding: 5px;}
-.f_category ul li a{text-decoration: none;text-align: left; color: white;}
+.f_category ul li{padding: 5px; font-size: 20px;text-align: left;}
+.f_category ul li a{text-decoration: none; color: white;}
 .f_category ul li a:hover{  color:goldenrod; border-bottom: 1px solid white;}
 .f_combo{/* background-color: orangered; */}
 .f_combo ul{list-style: none;padding: 0px;}
