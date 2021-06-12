@@ -155,7 +155,7 @@ body::-webkit-scrollbar
          
     
 /* ---------------------media Query-------------------------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (min-device-width : 768px) {
     
     .logo_img{padding: 0px 0px 8px 25px;}
     .logo_txt {
