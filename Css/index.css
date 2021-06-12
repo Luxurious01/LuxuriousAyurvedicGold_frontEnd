@@ -133,7 +133,7 @@ body{background-image:  url(../Images/background3.jpg);background-position: cent
 .f_bottom{border-top: 1px solid gray; text-align: center; color:white;}
 .f_offers{ float: left; width: 100%; padding: 10px 0px 10px;}
 .f_offers .f_offerstxt{width: 280px;height: 50px;  border: transparent;}
-.f_srch_btn {padding: 15px; font-weight: 400px;color: #000; background-color: purple; position: absolute;}
+.f_srch_btn {padding: 15px; font-weight: 400px;color: white; background-color: purple; position: absolute;}
 .f_srch_btn:hover{text-decoration: none;color: white;}
 .f_offers_box{position: relative;float: left;}
 /* .f_payment {background-color: palegoldenrod; } */
@@ -155,7 +155,8 @@ body::-webkit-scrollbar
          
     
 /* ---------------------media Query-------------------------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (min-device-width : 768px) {
+    
     .logo_img{padding: 0px 0px 8px 25px;}
     .logo_txt {
         padding: -33px 0px 0px 12px;
