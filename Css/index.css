@@ -1,4 +1,4 @@
-body{background-image:  url(../Images/background.png);background-position: center; background-repeat:  no-repeat; background-size: cover; }
+body{background-image:  url(../Images/background.jpg);background-position: center; background-repeat:  no-repeat; background-size: cover; }
 .main_head{width:100%;float:left;}
 .stricky-fixed {position: fixed;top: -2px;left: 0;z-index: 99;background-color: #fff; box-shadow: 0 20px 20px -10px #cccccc;}
 .main_head .top_head{width:100%; float:left; background-color:rgb(19, 1, 19)}
