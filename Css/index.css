@@ -1,4 +1,4 @@
-body{background-image:  url(../Images/background3.jpg);background-position: center; background-repeat:  no-repeat; background-size: cover; }
+body{background-image:  url(../Images/background.png);background-position: center; background-repeat:  no-repeat; background-size: cover; }
 .main_head{width:100%;float:left;}
 .stricky-fixed {position: fixed;top: -2px;left: 0;z-index: 99;background-color: #fff; box-shadow: 0 20px 20px -10px #cccccc;}
 .main_head .top_head{width:100%; float:left; background-color:rgb(19, 1, 19)}
@@ -105,10 +105,13 @@ body{background-image:  url(../Images/background3.jpg);background-position: cent
 .stores{float: left; width: 100%; padding: 10px;}
 .store_det{float: left;width: 100%;}
 .stores_img{ padding: 0px; display: inline-flex;}
-.stores_img img{padding: 6px;}
-.store_txt{padding: 0px;}
-.store_txt h3{display: inline-block;   font-family: Oswald Regular; font-size: 35px;}
-.store_txt::after{content: "";width: 2px;position: absolute;height: 55px;background:black;top: 16%;left: 90%;}
+.stores_img img{width: 136px;
+    height: 66px;
+    padding: 5px;
+}
+.store_txt{padding: 10px 0px 17px 0px; margin: 0 auto; text-align: center;}
+.store_txt h3{display: inline-block;   font-family: Oswald Regular; font-size: 39px;    line-height: 0px;}
+.store_txt::after{content: "";width: 186px;position: absolute;height: 2px;background:black;top: 41%;left: 42%;}
 
 .footer_div{background-color:rgb(19, 1, 19); float: left;width: 100%;padding: 40px;}
 .foot{/* background-color: red; */}
