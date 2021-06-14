@@ -2,7 +2,7 @@
 
 
 .Privacy_div{float: left; width: 100%;}
-.privacy_txt{ background-image: url(../Images/PrivacyPolicy.jpg); float: left;width: 100%; padding: 132px;height: 400px; background-position: center;background-repeat: no-repeat;}
+.privacy_txt{ background-image: url(../Images/PrivacyPolicy.jpg); float: left;width: 100%; padding: 131px;height: 400px; background-position: center;background-repeat: no-repeat;}
 .privacy_txt h3 {text-align: center; font-size: 70px;
      color:black;  font-family: Oswald Regular;}
 .privact_content{float: left; width: 100%;padding: 30px; line-height: 30px;}
