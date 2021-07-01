@@ -8,16 +8,8 @@
 .privact_content{float: left; width: 100%;padding: 30px; line-height: 30px;}
 .privact_content ul{font-size: 15px;font-family: arial;}
 .privact_content ul li {list-style: none;}
-ol {
-  counter-reset: item
-}
- ol li {
-  display: block
-}
- ol li:before {
-  content: counters(item, ".") ;
-  counter-increment: item
-}
+
+ 
 
 
 .main_head{width:100%;float:left;}

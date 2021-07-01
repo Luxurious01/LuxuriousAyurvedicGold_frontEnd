@@ -3,8 +3,9 @@
 .term_txt h3 {text-align: center; font-size: 60px;
     padding: 80px; color:black;  font-family: Oswald Regular;}
 .term_content{float: left; width: 100%;padding: 30px;}
+.term_content h4{font-weight: bold;}
 .term_content ul{line-height: 26px; font-size: 15px;font-family: arial;}
-.term_content ul li {list-style: none;}
+.term_content ul li {list-style: none;font-weight: 600;}
 
 .main_head{width:100%;float:left;}
 .stricky-fixed {position: fixed;top: -2px;left: 0;z-index: 99;background-color: #fff; box-shadow: 0 20px 20px -10px #cccccc;}

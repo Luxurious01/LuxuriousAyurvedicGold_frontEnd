@@ -11,9 +11,11 @@
 .submit_btn{float: left; width: 100%;  padding: 15px;}
 .submit_btn input{ text-align: center ; width: 400px; display: block; border-radius: 3px; border: none;padding: 7px; background-color: purple; border-radius: 34px 0px;  margin : 0 auto; font-size: 20px; color: black;}
 .contact_soical{float: left; width: 100%; clear: both; text-align: center;}
-.contact_add {padding: 3px 34px 0px 0px; font-size: 15px; }
+.contact_add { font-size: 15px;     padding: 38px 0px 0px 0px;}
 .contact_add i{padding: 9px;}
-.contact_phn{ font-size: 15px; padding: 40px 0px 0px 40px;}
+.contact_email { font-size: 15px; }
+.contact_email i{padding: 9px;}
+.contact_phn{ font-size: 15px; }
 .contact_phn i{padding: 9px;}
 .soical_icon{text-align: center; font-size: 25px; font-family:Oswald Regular; float: left; width: 100%;}
 .soical_icon img{padding: 10px;}
