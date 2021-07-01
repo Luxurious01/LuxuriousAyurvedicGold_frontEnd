@@ -2,6 +2,7 @@
 
 .contact{float: left; width: 100%; }
 .contact_div{ float: left; width: 100%; border-right: 0.1rem solid gray;  text-align: center;}
+.contact_div h4{ font-size: 28px;padding: 30px 0px 0px 0px;}
 .contact_txt{background-image: url(../Images/contact.jpg);  float: left;  height: 400px; width: 100%;background-position: center; background-repeat: no-repeat;background-size: cover;}
 .contact_txt h2{  padding: 130px;text-align: center; font-family: Oswald Regular; font-size: 60px;}
 .contact_form{ float: left; padding: 20px; }
@@ -11,6 +12,7 @@
 .submit_btn{float: left; width: 100%;  padding: 15px;}
 .submit_btn input{ text-align: center ; width: 400px; display: block; border-radius: 3px; border: none;padding: 7px; background-color: purple; border-radius: 34px 0px;  margin : 0 auto; font-size: 20px; color: black;}
 .contact_soical{float: left; width: 100%; clear: both; text-align: center;}
+.contact_soical h4{ font-size: 28px;padding: 30px 0px 0px 0px;}
 .contact_add { font-size: 15px;     padding: 38px 0px 0px 0px;}
 .contact_add i{padding: 9px;}
 .contact_email { font-size: 15px; }
