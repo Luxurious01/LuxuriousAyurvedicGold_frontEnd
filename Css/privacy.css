@@ -8,6 +8,7 @@
 .privact_content{float: left; width: 100%;padding: 30px; line-height: 30px;}
 .privact_content ul{font-size: 15px;font-family: arial;}
 .privact_content ul li {list-style: none;}
+.privact_content b{font-size: 20px;font-family: 'FontAwesome'; text-decoration: underline;}
 
  
 

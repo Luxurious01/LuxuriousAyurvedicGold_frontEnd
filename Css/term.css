@@ -4,8 +4,10 @@
     padding: 80px; color:black;  font-family: Oswald Regular;}
 .term_content{float: left; width: 100%;padding: 30px;}
 .term_content h4{font-weight: bold;}
-.term_content ul{line-height: 26px; font-size: 15px;font-family: arial;}
-.term_content ul li {list-style: none;font-weight: 600;}
+/* .term_content ol{line-height: 26px; font-size: 15px;font-family: arial;} */
+.term_content ol li {font-weight: 600; text-align: left;}
+.term_content ul  {display: inline-block; text-align: left;}
+.term_content{}
 
 .main_head{width:100%;float:left;}
 .stricky-fixed {position: fixed;top: -2px;left: 0;z-index: 99;background-color: #fff; box-shadow: 0 20px 20px -10px #cccccc;}
