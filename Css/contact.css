@@ -114,6 +114,8 @@ body::-webkit-scrollbar
  }
  @media (max-width:768px){
      .contact_form{margin: 0 auto;}
+     .contact_div{border-right: none;}
+     .submit_btn input{width: 300px;}
     .welcom{margin: 0 auto;}
     .f_srch_btn{    display: inline-block;}
     /* .menu_div{display: block; padding: 0px; } */
