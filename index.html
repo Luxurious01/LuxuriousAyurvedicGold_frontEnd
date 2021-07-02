@@ -140,7 +140,9 @@
                                      </ul>
                                     </div></li>
                                   </ul>
-                                  <label id="icon"><i class="fa fa-bars"></i></label>
+                                  <input type="checkbox" id="check">
+                                  <label for="check"><i class="fa fa-bars" id="bar_icon"></i>
+                                  <i class="fa fa-times" id="cancel_icon"></i></label>
                                 </div>
                                 <div class="search_div pull-left">
                                   <a href="" class="search_btn"><i class="fa fa-search"></i></a>
@@ -877,7 +879,7 @@ navClass: ['owl-prev', 'owl-next'],
       
       <script>
         $(document).ready(function(){
-          $('#icon').click(function(){
+          $('#check').click(function(){
             $('ul').toggleClass('show');
           });
         });

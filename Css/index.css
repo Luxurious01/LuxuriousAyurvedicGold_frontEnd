@@ -23,14 +23,16 @@
 .menu_div ul li i{display: none; color: purple;}
 .menu_div ul li a{ color: purple;  font-family:Oswald Regular;font-weight: 800;text-decoration: none;font-size:18px;}
 .dropdown{position: relative;  display: none;}
-.dropdown ul {position: absolute;padding: 0px; width: 200px;z-index: 1;  border-top: 2px solid purple;box-shadow: 5px 10px 18px #888888;  overflow-y: scroll; height: 160px;scrollbar-color: #0A4C95 #C2D2E4;} 
+.dropdown ul {position: absolute;padding: 0px; width: 200px;z-index: 1;  border-top: 2px solid purple;box-shadow: 5px 10px 18px #888888;  overflow-y: auto; height: 160px;scrollbar-color: #0A4C95 #C2D2E4;} 
 .dropdown ul li{padding: 8px 0px 0px 8px;}
 .dropdown ul li a{ color:rgb(19, 1, 19); font-family:Oswald Regular ; font-size: 14px; font-weight: 800; }
 .menu_div ul li.active.dropdown{ }
 .menu_div ul li:hover>.dropdown {display: block;}
 
 .menu_div ul li:hover>.dropdown ul { border-bottom: 1px dotted whitesmoke;   background-color:white;text-align: left;}
-#icon{font-size: 30px; cursor: pointer; display: none; line-height: 70px; float: right;}
+#check{display: none;}
+#bar_icon{font-size: 30px; cursor: pointer; display: none; line-height: 70px; float: right;}
+#cancel_icon{font-size: 30px; cursor: pointer; display: none; line-height: 70px; float: right;}
 .search_div{ padding: 10px;}
 .search_btn{color: purple; display: inline-block;    font-weight: bold; font-size: 15px;}
 .search_div .search_text{border: none;/* background: palegreen; */outline: none; text-align: left;padding: 0;font-size: 15px;transition: 0.4s;/* line-height: 40px; */width: 0px; position: absolute;   /* left: -174px; */}
@@ -180,15 +182,27 @@ body::-webkit-scrollbar
 .store_txt::after{display: none;}
 
 
+#check:checked ~ label #bar_icon{
+    display: none;
+}
+#check:checked ~label  #cancel_icon{
+    display: block;
+}
 
-
-#icon{display: block;
+#bar_icon{display: block;
     color: purple;
-    margin-top: -13px;
+    margin-top: -10px;
     padding: 0px;
     font-size: 25px;
     height: 0px;
 } 
+#cancel_icon{display:none;
+    color: purple;
+    margin-top: -10px;
+    padding: 0px;
+    font-size: 25px;
+    height: 0px;
+}
 .menu_div{padding: 0px; margin: 0px;display: flex}
 .menu_div ul{padding: 0px;
     z-index: 1;
