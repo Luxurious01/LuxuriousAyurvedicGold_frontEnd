@@ -6,7 +6,7 @@
 .user_deta{display: inline-flex; width: 100%;}
 .user_txt{display: block; padding: 10px;}
 .user_img img{width: 100px;height: 100px;} */
-.nav_div{float: left; width: 100%; background-color: tomato;}
+/* .nav_div{float: left; width: 100%; background-color: tomato;}
 .nav_bar{float: left;width: 100%; background-color: teal;}
 .navi{float: left; width: 100%; background-color: antiquewhite;}
 .menu_div{background-color: mediumvioletred;display: inline-flex;  margin-left:  116px; }
@@ -23,7 +23,7 @@
 #icon{color: white;font-size: 30px; cursor: pointer; display: none; line-height: 70px; float: right;}
 .search_div{background-color:green;  padding: 10px;}
 .search_btn{color: purple; display: inline-block;font-size: 17px;}
-.search_div .search_text{border: none;/* background: palegreen; */outline: none; text-align: left;padding: 0;font-size: 18px;transition: 0.4s;/* line-height: 40px; */width: 0px; position: absolute;   /* left: -174px; */}
+.search_div .search_text{border: none;outline: none; text-align: left;padding: 0;font-size: 18px;transition: 0.4s;width: 0px; position: absolute;}
 .search_div:hover  .search_text{ width: 167px;padding: 0px 6px; border-radius: 3px;}
 .search_div:hover .search_text{width: 200px; position: absolute;}
 .cart_div{background-color:black;}
@@ -38,5 +38,41 @@
      .menu_div ul li i{display: inline;float: right;}
      .menu_div ul li:hover>.dropdown ul{position: relative; top:0;}
      .search_div{}
-    }
+    } */
     
+    .slider_div{width:100%; float:left;position: relative;}
+    .customer_review{padding: 25px;}
+    .best_seller{width: 100%; }
+    .best_seller h2{ color:black; letter-spacing: 0.2rem; font-family:Oswald Regular ;font-size: 26px;font-weight: 400;text-align: center;text-transform: uppercase;position: relative;margin: 27px 0 27px;}
+    /* .best_seller b {color:purple;} */
+    .best_seller h2::before {content: "";width: 120px;position: absolute;height: 3px;background:black;   top:50%; right: 65%;}
+    .best_seller h2::after {content: "";width: 120px;position: absolute;height: 3px;background:black;top:50%; left: 65%;}
+    
+    .review_box{text-align: center; width: 100%;box-shadow: 5px 10px 18px #888888;margin: 16px 16px 16px 16px;background-color: white;
+        border-radius: 14px; }
+    .review_box_in{padding:8px; }
+    /* .rating{float: right;  padding:5px;} */
+    /* .rating i{color:gold;} */
+    .pro_name{font-family: Oswald Regular; color: black;text-align: center; font-size: 19px;}
+    .pro_tagline{font-size: 19px; font-family: Oswald Light;color: dark grey; text-align: center;}
+    .price {float: left;font-size: 16px;font-family: Oswald Regular;padding: 6px; color: black;}
+    .rating{float: right;font-size: 16px;font-family: Oswald Regular;padding: 6px; color:black;}
+    .rating i{color: goldenrod}
+    .price_rat{width: 100%;float: left;padding: 8px;}
+    .cart_btn{font-family:Oswald Medium; text-transform: uppercase; margin-bottom: 0px; background-color: purple; color: #fff; font-size: 10px;
+     display: inline-block;height: 35px;width: 214px; margin-bottom: 10px;border-radius: 34px 0px;}
+    .cart_btn:hover{ background-color: #fff; border: 0.1rem solid purple;}
+    .cart_btn:hover h5{color:purple;}
+    
+    
+     
+    .cart_btn a{text-decoration: none;color: white}
+    .owl-nav{float: left; width: 100%;}
+    .owl-next{top: 50%; position: absolute;font-size: 35px; color: gainsboro;margin-top: -43px;right: -40px;}
+    .owl-prev{top: 50%;position: absolute;font-size: 35px; color: gainsboro;margin-top: -43px;left: -40px;}
+    
+    .user_view{float: left;width: 100%;padding: 30px;}
+    .user_view i{float: left;}
+    .user_deta{display: inline-flex; width: 100%;}
+    .user_txt{display: block; padding: 10px;}
+    .user_img img{width: 100%;height: 100%;}
