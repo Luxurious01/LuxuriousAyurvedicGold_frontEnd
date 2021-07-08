@@ -71,7 +71,7 @@
                                 <div class="menu_div">
                                   <ul>
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="#">Skin Care</a><i class="fa fa-plus"></i>
+                                    <li><a href="Pages/skin_care.html">Skin Care</a><i class="fa fa-plus"></i>
                                     <div class="dropdown">
                                       
                                       <ul>
@@ -83,7 +83,7 @@
                                       
                                     
                                     </div></li>
-                                    <li><a href="#">Hair Care</a><i class="fa fa-plus"></i>
+                                    <li><a href="Pages/hair_care.html">Hair Care</a><i class="fa fa-plus"></i>
                                       <div class="dropdown">
                                                             
                                         <ul>
@@ -94,7 +94,7 @@
                                         <li><a href="" > Hair serum</a></li>
                                      </ul>
                                     </div></li>
-                                    <li><a href="#">Body Care</a><i class="fa fa-plus"></i>
+                                    <li><a href="Pages/body_care.html">Body Care</a><i class="fa fa-plus"></i>
                                       <div class="dropdown">
                                                             
                                         <ul>
@@ -109,7 +109,7 @@
                                         
                                      </ul>
                                     </div></li>
-                                    <li><a href="#">Health Care</a><i class="fa fa-plus"></i>
+                                    <li><a href="Pages/health_care.html">Health Care</a><i class="fa fa-plus"></i>
                                       <div class="dropdown">
                                                                
                                         <ul>
@@ -129,7 +129,7 @@
                                           <li><a href="" > Stratch marks remover gel</a></li>
                                      </ul>
                                     </div></li>
-                                    <li><a href="#">Sexual & Wellness</a><i class="fa fa-plus"></i>
+                                    <li><a href="Pages/sexual&wellness.html">Sexual & Wellness</a><i class="fa fa-plus"></i>
                                       <div class="dropdown">
                                                                 
                                         <ul>
@@ -704,38 +704,24 @@
 </div>
 </section>
 <section class="stores">
-  <div class="container">  
-    <div class="row">
-      <div class="col-md-12">
-        <div class="store_det">
-          
-        <div class="store_txt"><h3>Our Stores</h3> </div>
-      
-        <div class="stores_img">
-          <img src="Images/ama.png">    <a href="https://www.amazon.in/s?k=luxurious+ayurvedic+gold&crid=8X2694727S1A&sprefix=luxurious+a%2Caps%2C312&ref=nb_sb_ss_ts-doa-p_4_11">  </a> 
-          <img src="Images/flip.png"><a href="https://www.flipkart.com/search?q=luxurious%20ayurvedic%20gold&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"> </a> 
-       
-      
-          <img src="Images/paytm.png"><a href="https://paytm.com/shop/search?q=luxurious%20ayurvedic%20gold&from=autosuggest&child_site_id=1&site_id=1"> </a>
-          <img src="Images/Snapdeal.png">
-          <img src="Images/shopclues.png">
-           
-          <img src="Images/meesho.png">
-          <img src="Images/glowroad logo.png">
+  <div class="container">
+    <h2>Our  stores</h2>
+     <section class="customer-logos slider">
+        <div class="slide"><img src="ama - Copy.png"></div>
+        <div class="slide"><img src="flip - Copy.png"></div>
+        <div class="slide"><img src="paytm-logo - Copy.png"></div>
+        <div class="slide"><img src="sanpdeal - Copy.png"></div>
+        <div class="slide"><img src="shopclues.png"></div>
+        <div class="slide"><img src="meesho.png"></div>
         
-         
-          <img src="Images/simsim.png">
-          
-
-        </div>
+        <div class="slide"><img src="glowroad logo - Copy.png"></div>
+        <div class="slide"><img src="1mg-logo.png"></div>
         
-</div>
-      </div>
-
-    </div>
-  </div>
+     </section>
 </section>
-<section class="footer_div">
+
+
+  <section class="footer_div">
   <div class="container ">
       <div class="row">
           
@@ -800,11 +786,11 @@
                    </div>
                    <div class="f_payment pull-right">
                               <h6>PAYMENT</h6>
-                      <img src="Images/visa2x.png">
-                      <img src="Images/master_card2x.png">
-                      <img src="Images/rupay2x.png">
-                      <img src="Images/american_express2x.png">
-                      <img src="Images/net_banking2x.png">
+                      <img src="Images/GooglePay.png">
+                      <img src="Images/PAYTM 2.png">
+                      <img src="Images/debit card.png">
+                      <img src="Images/credit card.png">
+                      <!-- <img src="Images/net_banking2x.png"> -->
                       <!-- <img src="../Images/icons-06.png"> -->
 
                    </div>
@@ -884,6 +870,31 @@ navClass: ['owl-prev', 'owl-next'],
           });
         });
       </script>
+    <script>
+      $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+      });
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
      
 </body>
 </html>
