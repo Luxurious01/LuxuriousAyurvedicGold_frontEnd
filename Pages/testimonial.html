@@ -343,6 +343,70 @@
   </section>
 
 
+  <section class="indiv_product">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               
+              <div class=" wrapper ">
+               
+                    <div class="preview col-md-6">
+                        
+                        <div class="preview-pic tab-content">
+                          <div class="tab-pane active" id="pic-1"><img src="../Images/Products/B08LSS25WZ.main.jpg" /></div>
+                          <div class="tab-pane" id="pic-2"><img src="../Images/Products/PT01.jpg" /></div>
+                          <div class="tab-pane" id="pic-3"><img src="../Images/Products/PT02.jpg" /></div>
+                          <div class="tab-pane" id="pic-4"><img src="../Images/Products/PT03.jpg" /></div>
+                          <div class="tab-pane" id="pic-5"><img src="../Images/Products/PT04.jpg" /></div>
+                        </div>
+                        <ul class="preview-thumbnail nav nav-tabs">
+                          <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="../Images/Front (5).jpg" /></a></li>
+                          <li><a data-target="#pic-2" data-toggle="tab"><img src="../Images/Products/PT01.jpg" /></a></li>
+                          <li><a data-target="#pic-3" data-toggle="tab"><img src="../Images/Products/PT02.jpg" /></a></li>
+                          <li><a data-target="#pic-4" data-toggle="tab"><img src="../Images/Products/PT03.jpg" /></a></li>
+                          <li><a data-target="#pic-5" data-toggle="tab"><img src="../Images/Products/PT04.jpg" /></a></li>
+                        </ul>
+                        </div>
+                    
+                 
+             
+                <div class="col-md-6">
+                   <div class="indiv_product_det">
+                    <div class="indiv_product_nme">
+                        <h3>Castor Oil</h3>
+                            </div>
+                            <div class="indiv_product_price">
+                            <p><span> &#8377; 456</span></p>
+                            </div>
+                            <div class="indiv_product_des">
+                                <h4><strong>Description</strong></h4>
+                                <p>You can have it all- with the originality of Castor Seed Oil, which nourishes your hair, reduces hair fall, make it lustrous and maintain the style at the same time. The platform of purity will give your hair the life it deserves with Luxurious Ayurvedic Gold Castor Oil.</p>
+                            </div>
+                            <div class="indiv_product_rating">
+                                <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                </i><i class="fa fa-star"></i>
+                            </div>
+                            <div class="indiv_product_qty">
+                                <label for="qty">QTY:</label>
+                                <input type="number"  step="1" min="1" max="10" name="quantity" value="1" title="Qty" size="3" inputmode="numeric">
+                                
+                            </div>
+                            <div class="indiv_product_btn">
+                                <div class="indiv_product_addcart"> </i><b>ADD TO CART</b></div>
+                                <div class="indiv_product_buynow"></i><b>BUY NOW</b></div>
+                            </div>
+                    </div>
+                </div>
+                </div>
+               </div>
+               </div>
+            </div>
+                </div>
+            </div>
+</section>
+
+
 
   <div class="container">
     <h2>Our  Partners/ Our Clients</h2>
@@ -442,7 +506,46 @@ $(document).ready(function(){
   });
 });
 </script>
+script>
+  $(document).ready(function(){
+    $('#icon').click(function(){
+      $('ul').toggleClass('show');
+    });
+  });
+</script>
+<script>$('.preview-thumbnail li a').click(function () {       
+  var target = $(this).data('target');
+  if(target){
+      $(this).toggleClass('active');
+  }
+});</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
     </body>
     </html>
+    <div class="dropdown">
+                                      
+      <ul>
+        <div class="mega_menu">
+    <li><a href="" > Piles cure capsules</a></li>
+      <li><a href="" > Glu control capsules</a></li>
+      <li><a href="" > Noni extract capsules</a></li>
+      <li><a href="" > Amla extract capsules</a></li>
+      <li><a href="" >   Green coffee beans capsules</a></li>
+     </div>
+     <div class="mega_menu">
+       see all
+        <li><a href="" > Goliy extract capsules</a></li>
+        <li><a href="" > Fat free capsules</a></li>
+        <li><a href="" > Green lipped capsules</a></li>
+        <li><a href="" > Joint remedy pain relief gel</a></li>
+        <li><a href="" > Joint remedy  sachet</a></li>
+        </div>
+        <div class="mega_menu">
+        <li><a href="" > Madira killer sachet</a></li>
+        <li><a href="" > Weight on weight gain sachet</a></li>
+        <li><a href="" > Joint remedy pain relief gel</a></li>
+        <li><a href="" > Stratch marks remover gel</a></li>
+        </div>
+   </ul>
+  </div>
